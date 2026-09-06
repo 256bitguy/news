@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { getToken } from '../utils/tokenStorage.js';
 
-const BASE_HOST = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000';
+const BASE_HOST = import.meta.env.VITE_API_BASE_URL || 'https://api.penverse.in';
 const API_PREFIX = '/api/v1';
 
 const client = axios.create({
