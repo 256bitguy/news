@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  body {
+    @apply bg-paper text-ink font-body antialiased;
+  }
+  ::selection {
+    @apply bg-gold/30;
+  }
+  :focus-visible {
+    outline: 2px solid #c9971d;
+    outline-offset: 2px;
+  }
+}
